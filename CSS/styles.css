@@ -1,7 +1,18 @@
 body{
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 
 }
 h1{
@@ -16,6 +27,7 @@ h2{
   font-size: 2.5rem;
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
 }
 h3{
   font-family: 'Montserrat', sans-serif;
@@ -29,10 +41,13 @@ h3{
 
 }
 .middle-container{
+  margin: 100px 0;
 
 }
 
 .bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
 
 }
 .bottom_cloud{
@@ -40,6 +55,10 @@ h3{
   bottom: 300px;
   left:450px;
 
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
 }
 .top_cloud{
   position: absolute;
@@ -64,7 +83,7 @@ h3{
   width: 50%;
   margin: 100px auto;
   text-align: left;
-  line-height: 2;
+
 
 }
 .btn {
@@ -87,4 +106,22 @@ h3{
 .btn:hover {
   background: #3cb0fd;
   text-decoration: none;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color:#EAF6F6;
+  font-size: .75em;
+  padding: 20px 0;
 }
